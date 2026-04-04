@@ -1,0 +1,14 @@
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\bin\Debug\net8.0\Limbus Combat Console.exe
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\bin\Debug\net8.0\Limbus Combat Console.deps.json
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\bin\Debug\net8.0\Limbus Combat Console.runtimeconfig.json
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\bin\Debug\net8.0\Limbus Combat Console.dll
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\bin\Debug\net8.0\Limbus Combat Console.pdb
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\Limbus Combat Console.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\Limbus Combat Console.AssemblyInfoInputs.cache
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\Limbus Combat Console.AssemblyInfo.cs
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\Limbus Combat Console.csproj.CoreCompileInputs.cache
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\Limbus Combat Console.dll
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\refint\Limbus Combat Console.dll
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\Limbus Combat Console.pdb
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\Limbus Combat Console.genruntimeconfig.cache
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\ref\Limbus Combat Console.dll

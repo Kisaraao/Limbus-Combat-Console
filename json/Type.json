@@ -1,0 +1,12 @@
+﻿{
+	"Attack":["斩击", "穿刺", "打击"],
+	"Sin":[
+		{"Name":"暴怒", "Color":4},
+		{"Name":"色欲", "Color":12},
+		{"Name":"怠惰", "Color":6},
+		{"Name":"暴食", "Color":10},
+		{"Name":"忧郁", "Color":3},
+		{"Name":"傲慢", "Color":1},
+		{"Name":"嫉妒", "Color":5}
+	]
+}

@@ -1,0 +1,15 @@
+[
+    {
+        "Code":"Burn",
+        "Name":"烧伤",
+        "Counter":"Double",
+        "StackMax":99,
+        "CountMax":99,
+        "AutoStart":true,
+        "TriggerEvent":"OnTurnEnd",
+        "TriggerResult":[
+            { "Target":"Self", "Status":"Health", "Mode":"Lose", "Value":"Stack" },
+            { "Target":"Self", "Status":"Count", "Mode":"Lose", "Value":"1" }
+        ]
+    }
+]
