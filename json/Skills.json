@@ -1,53 +1,79 @@
 [
     {
         "Id":0,
-        "Type":"攻击",
+        "Type":"Attack",
+        "SinType":"Lust",
+        "AtkType":"Slash",
         "CanDuel":true,
         "SkillTier":3,
-        "SinType":"色欲",
-        "AtkType":"斩击",
         "Name":"提比娅的旋律-以被解剖之物解剖未被解剖之物",
-        "AttackLevelVariable":5,
+        "SkillLevelVariable":5,
         "Base":10,
         "Variable":4,
-        "OnTurnBegin":[
-            { "status":"protect", "target":"self", "stack":4 }
-        ],
-        "OnUse":[
-            { "status":"breath", "target":"self", "stack":20, "count":4 }
-        ],
-        "OnCombatWin":[
-            { "status":"damage_strong", "target":"self", "stack":10 }
-        ],
-        "OnCombatLose":[
-            { "status":"damage_weak", "target":"self", "stack":6 }
+        "SkillEvent":[
+            { 
+                "Trigger":"OnTurnBegin",
+                "Effect":[{ "Status":"Protect", "Target":"Self", "Stack":4 }] 
+            },
+            {
+                "Trigger":"OnCombatLose",
+                "Effect":[{ "Status":"DamageDown", "Target":"Self", "Stack":6 }] 
+            }
         ],
         "CoinList":[
             {
                 "Type":"Unbreakable",
                 "Operator":"Add",
-                "Speak":["Before", "你听见了吗？那由提比娅的一对肱骨与二十四根肋骨奏响的旋律！", "audio/tibia.ogg"],
-                "OnUnbreakHit":[{ "status":"sanity", "target":"target", "stack":-5 }],
-                "OnHit":[{ "status":"sanity", "target":"self", "stack":5 }]
+                "Speak":[{"Trigger":"OnBeforeHit", "Content":"你听见了吗？那由提比娅的一对肱骨与二十四根肋骨奏响的旋律！", "Audio":"audio/tibia.ogg"}],
+                "CoinEvent":[
+                    {
+                        "Trigger":"OnUnbreakHit",
+                        "Effect":[{ "Status":"Sanity", "Target":"Target", "Stack":-5 }]
+                    },
+                    {
+                        "Trigger":"OnHit",
+                        "Effect":[{ "Status":"Sanity", "Target":"Self", "Stack":5 }]
+                    }
+                ]
             },
             {
                 "Type":"Unbreakable",
                 "Operator":"Add",
-                "OnUnbreakHit":[{ "status":"fragile", "target":"target", "stack":1 }],
-                "OnHit":[{ "status":"protect", "target":"self", "stack":1 }]
+                "CoinEvent":[
+                    {
+                        "Trigger":"OnUnbreakHit",
+                        "Effect":[{ "Status":"Fragile", "Target":"Target", "Stack":1 }]
+                    },
+                    {
+                        "Trigger":"OnHit",
+                        "Effect":[{ "Status":"Protect", "Target":"Self", "Stack":1 }]
+                    }
+                ]
             },
             {
                 "Type":"Unbreakable",
                 "Operator":"Add",
-                "OnUnbreakHit":[{ "status":"damage_weak", "target":"target", "stack":1 }],
-                "OnHit":[{ "status":"damage_strong", "target":"self", "stack":1 }]
+                "CoinEvent":[
+                    {
+                        "Trigger":"OnUnbreakHit",
+                        "Effect":[{ "Status":"DamageDown", "Target":"Target", "Stack":1 }]
+                    },
+                    {
+                        "Trigger":"OnHit",
+                        "Effect":[{ "Status":"DamageUp", "Target":"Self", "Stack":1 }]
+                    }
+                ]
             },
             {
                 "Type":"Unbreakable",
                 "Operator":"Add",
-                "OnHit":[{ "status":"bleed", "target":"target", "count":3 }]
+                "CoinEvent":[
+                    {
+                        "Trigger":"OnHit",
+                        "Effect":[{ "Status":"Bleed", "Target":"Target", "Count":3 }]
+                    }
+                ]
             }
-        ],
-        "OnTurnEnd":[]
+        ]
     }
 ]

@@ -1,0 +1,11 @@
+OnTurnBegin     # 回合开始
+OnUse           # 使用技能
+OnRollCoin      # 投币
+OnBeforeCombat  # 拼点前
+OnCombatWin     # 拼点胜利
+OnCombatLose    # 拼点失败
+OnAfterCombat   # 拼点后
+OnBeforeHit     # 攻击前
+OnHit           # 击中
+OnAfterHit      # 攻击后
+OnTurnEnd       # 回合结束

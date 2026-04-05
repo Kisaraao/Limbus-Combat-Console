@@ -1,12 +1,16 @@
 ﻿{
-	"Attack":["斩击", "穿刺", "打击"],
+	"Attack":[
+		{"Code":"Slash", "Name":"斩击"},
+		{"Code":"Stab", "Name":"穿刺"},
+		{"Code":"Strike", "Name":"打击"}
+	],
 	"Sin":[
-		{"Name":"暴怒", "Color":4},
-		{"Name":"色欲", "Color":12},
-		{"Name":"怠惰", "Color":6},
-		{"Name":"暴食", "Color":10},
-		{"Name":"忧郁", "Color":3},
-		{"Name":"傲慢", "Color":1},
-		{"Name":"嫉妒", "Color":5}
+		{"Code":"Wrath", "Name":"暴怒", "Color":4},
+		{"Code":"Lust", "Name":"色欲", "Color":12},
+		{"Code":"Sloth", "Name":"怠惰", "Color":6},
+		{"Code":"Gluttony", "Name":"暴食", "Color":10},
+		{"Code":"Melancholy", "Name":"忧郁", "Color":3},
+		{"Code":"Pride", "Name":"傲慢", "Color":1},
+		{"Code":"Envy", "Name":"嫉妒", "Color":5}
 	]
 }

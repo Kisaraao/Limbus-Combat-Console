@@ -2,15 +2,15 @@
 	"Name":"环指 父辈 - 卡利斯托",
 	"Level":83,
 	"Tags":["大师", "手指", "环指", "人体派", "机械融合生命体", "蜘蛛巢"],
-	"Health":[{"Min":0, "Max":2819, "Initial":2819}],
-	"Sanity":[{"Min":-45, "Max":45, "Initial":0}],
-	"Speed":[{"Min":1, "Max":3}],
-	"Defense":[{"Base":1, "Variable":1}],
+	"Health":{"Min":0, "Max":2819, "Initial":2819},
+	"Sanity":{"Min":-45, "Max":45, "Initial":0},
+	"Speed":{"Min":1, "Max":3},
+	"Defense":{"Base":1, "Variable":1},
 	"Confusion":[0.49],
-	"Resists":[
-		{"斩击":0.8, "穿刺":1.0, "打击":1.2},
-		{"暴怒":1.0, "色欲":0.8, "怠惰":1.2, "暴食":1.2, "忧郁":0.8, "傲慢":1.0, "嫉妒":1.0}
-	],
+	"Resists":{
+		"Attack":{"Slash":0.8, "Stab":1.0, "Strike":1.2},
+		"Sin":{"Wrath":1.0, "Lust":0.8, "Sloth":1.2, "Gluttony":1.2, "Melancholy":0.8, "Pride":1.0, "Envy":1.0}
+	},
 	"Skills":[
 		{"Id":0, "Count":1}
 	]

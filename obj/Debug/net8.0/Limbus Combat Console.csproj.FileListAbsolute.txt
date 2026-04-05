@@ -12,3 +12,4 @@ D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8
 D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\Limbus Combat Console.pdb
 D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\Limbus Combat Console.genruntimeconfig.cache
 D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\ref\Limbus Combat Console.dll
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\Limbus Combat Console.sourcelink.json
