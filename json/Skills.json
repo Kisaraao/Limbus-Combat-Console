@@ -8,71 +8,143 @@
         "SkillTier":3,
         "Name":"提比娅的旋律-以被解剖之物解剖未被解剖之物",
         "SkillLevelVariable":5,
-        "Base":10,
-        "Variable":4,
-        "SkillEvent":[
-            { 
-                "Trigger":"OnTurnBegin",
-                "Effect":[{ "Status":"Protect", "Target":"Self", "Stack":4 }] 
-            },
-            {
-                "Trigger":"OnCombatLose",
-                "Effect":[{ "Status":"DamageDown", "Target":"Self", "Stack":6 }] 
-            }
-        ],
+        "Value":{ "Base":10, "Variable":4 },
+        "Operator":"Add",
         "CoinList":[
             {
                 "Type":"Unbreakable",
-                "Operator":"Add",
-                "Speak":[{"Trigger":"OnBeforeHit", "Content":"你听见了吗？那由提比娅的一对肱骨与二十四根肋骨奏响的旋律！", "Audio":"audio/tibia.ogg"}],
-                "CoinEvent":[
-                    {
-                        "Trigger":"OnUnbreakHit",
-                        "Effect":[{ "Status":"Sanity", "Target":"Target", "Stack":-5 }]
-                    },
-                    {
-                        "Trigger":"OnHit",
-                        "Effect":[{ "Status":"Sanity", "Target":"Self", "Stack":5 }]
-                    }
-                ]
+                "Speech":[{"Trigger":"OnBeforeHit", "Content":"你听见了吗？那由提比娅的一对肱骨与二十四根肋骨奏响的旋律！", "Audio":"audio/tibia.ogg"}]
             },
             {
-                "Type":"Unbreakable",
-                "Operator":"Add",
-                "CoinEvent":[
-                    {
-                        "Trigger":"OnUnbreakHit",
-                        "Effect":[{ "Status":"Fragile", "Target":"Target", "Stack":1 }]
-                    },
-                    {
-                        "Trigger":"OnHit",
-                        "Effect":[{ "Status":"Protect", "Target":"Self", "Stack":1 }]
-                    }
-                ]
+                "Type":"Unbreakable"
             },
             {
-                "Type":"Unbreakable",
-                "Operator":"Add",
-                "CoinEvent":[
-                    {
-                        "Trigger":"OnUnbreakHit",
-                        "Effect":[{ "Status":"DamageDown", "Target":"Target", "Stack":1 }]
-                    },
-                    {
-                        "Trigger":"OnHit",
-                        "Effect":[{ "Status":"DamageUp", "Target":"Self", "Stack":1 }]
-                    }
-                ]
+                "Type":"Unbreakable"
             },
             {
-                "Type":"Unbreakable",
-                "Operator":"Add",
-                "CoinEvent":[
-                    {
-                        "Trigger":"OnHit",
-                        "Effect":[{ "Status":"Bleed", "Target":"Target", "Count":3 }]
-                    }
-                ]
+                "Type":"Unbreakable"
+            }
+        ]
+    },
+    {
+        "Id":1,
+        "Type":"Attack",
+        "SinType":"Sloth",
+        "AtkType":"Stab",
+        "CanDuel":true,
+        "SkillTier":3,
+        "Name":"开！",
+        "SkillLevelVariable":3,
+        "Value":{ "Base":18, "Variable":7 },
+        "Operator":"Subtract",
+        "CoinList":[
+            {
+                "Type":"Normal"
+            },
+            {
+                "Type":"Normal"
+            },
+            {
+                "Type":"Normal",
+                "Speech":[{"Trigger":"OnBeforeHit", "Content":"开！"}]
+            }
+        ]
+    },
+    {
+        "Id":2,
+        "Type":"Attack",
+        "SinType":"Wrath",
+        "AtkType":"Strike",
+        "CanDuel":true,
+        "SkillTier":3,
+        "Name":"代行：抹杀-本望",
+        "SkillLevelVariable":6,
+        "Value":{ "Base":3, "Variable":3 },
+        "Operator":"Add",
+        "CoinList":[
+            {
+                "Type":"Unbreakable"
+            },
+            {
+                "Type":"Unbreakable"
+            },
+            {
+                "Type":"Unbreakable"
+            },
+            {
+                "Type":"Unbreakable"
+            },
+            {
+                "Type":"Unbreakable"
+            }
+        ]
+    },
+    {
+        "Id":3,
+        "Type":"Attack",
+        "SinType":"Wrath",
+        "AtkType":"Slash",
+        "CanDuel":true,
+        "SkillTier":3,
+        "Name":"落星一杀",
+        "SkillLevelVariable":5,
+        "Value":{ "Base":14, "Variable":9 },
+        "Operator":"Add",
+        "CoinList":[
+            {
+                "Type":"Unbreakable"
+            }
+        ]
+    },
+    {
+        "Id":4,
+        "Type":"Attack",
+        "SinType":"Envy",
+        "AtkType":"Slash",
+        "CanDuel":true,
+        "SkillTier":3,
+        "Name":"堑壕战特化交战用枪术",
+        "SkillLevelVariable":4,
+        "Value":{ "Base":7, "Variable":7 },
+        "Operator":"Add",
+        "CoinList":[
+            {
+                "Type":"Normal"
+            },
+            {
+                "Type":"Normal"
+            },
+            {
+                "Type":"Normal"
+            }
+        ]
+    },
+    {
+        "Id":5,
+        "Type":"Attack",
+        "SinType":"Wrath",
+        "AtkType":"Slash",
+        "CanDuel":true,
+        "SkillTier":3,
+        "Name":"处置",
+        "SkillLevelVariable":3,
+        "Value":{ "Base":3, "Variable":2 },
+        "Operator":"Add",
+        "CoinList":[
+            {
+                "Type":"Unbreakable"
+            },
+            {
+                "Type":"Unbreakable"
+            },
+            {
+                "Type":"Unbreakable"
+            },
+            {
+                "Type":"Unbreakable"
+            },
+            {
+                "Type":"Unbreakable"
             }
         ]
     }

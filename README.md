@@ -9,3 +9,7 @@
 #### Version 0.0.2    2026/4/5 17:54
 
 修正json文件，反序列化读取
+
+#### Version 0.0.3    2026/4/6 17:56
+
+ActionSlot、Random Manager、Speaker、CharacterInstance  *我已急哭*

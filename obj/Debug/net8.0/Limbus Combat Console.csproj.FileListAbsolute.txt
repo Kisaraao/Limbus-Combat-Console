@@ -7,9 +7,19 @@ D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8
 D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\Limbus Combat Console.AssemblyInfoInputs.cache
 D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\Limbus Combat Console.AssemblyInfo.cs
 D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\Limbus Combat Console.csproj.CoreCompileInputs.cache
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\Limbus Combat Console.sourcelink.json
 D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\Limbus Combat Console.dll
 D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\refint\Limbus Combat Console.dll
 D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\Limbus Combat Console.pdb
 D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\Limbus Combat Console.genruntimeconfig.cache
 D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\ref\Limbus Combat Console.dll
-D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\Limbus Combat Console.sourcelink.json
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\bin\Debug\net8.0\NAudio.dll
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\bin\Debug\net8.0\NAudio.Asio.dll
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\bin\Debug\net8.0\NAudio.Core.dll
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\bin\Debug\net8.0\NAudio.Midi.dll
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\bin\Debug\net8.0\NAudio.Wasapi.dll
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\bin\Debug\net8.0\NAudio.WinMM.dll
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\Limbus Combat Console.csproj.AssemblyReference.cache
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\obj\Debug\net8.0\Limbus C.BEE8CFF9.Up2Date
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\bin\Debug\net8.0\NAudio.Vorbis.dll
+D:\Code\Visual Studio\Limbus Combat Console\Limbus Combat Console\bin\Debug\net8.0\NVorbis.dll

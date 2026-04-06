@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Limbus Combat Console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfa08d9537b2e245175aabf7c34807bd36636118")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c9ce22036e466ea4a2953a85a04b54afd6d6d9d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Limbus Combat Console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Limbus Combat Console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
